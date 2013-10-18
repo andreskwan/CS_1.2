@@ -93,6 +93,9 @@
 }
 
 // TODO: Make the status bar content white
-
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 
 @end
