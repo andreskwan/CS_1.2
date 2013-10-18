@@ -72,7 +72,7 @@
     [super viewWillLayoutSubviews];
     
     self.headerLabel.frame = CGRectMake(20,
-                                        5,
+                                        20,
                                         280,
                                         self.headerLabel.font.pointSize + 5);
     
