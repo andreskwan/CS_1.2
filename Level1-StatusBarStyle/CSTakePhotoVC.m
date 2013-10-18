@@ -31,6 +31,10 @@
 }
 
 // TODO: Hide the status bar
+-(BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
 
 
 @end
